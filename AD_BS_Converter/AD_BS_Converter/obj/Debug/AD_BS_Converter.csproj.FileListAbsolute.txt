@@ -9,3 +9,14 @@ F:\VBStudio\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.csproj.Gen
 F:\VBStudio\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.csproj.CoreCompileInputs.cache
 F:\VBStudio\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.exe
 F:\VBStudio\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.pdb
+F:\VBStudio\CSAY_AD_BS_Converter\CSAY_AD_BS_Converter\AD_BS_Converter\AD_BS_Converter\bin\Debug\AD_BS_Converter.exe.config
+F:\VBStudio\CSAY_AD_BS_Converter\CSAY_AD_BS_Converter\AD_BS_Converter\AD_BS_Converter\bin\Debug\AD_BS_Converter.exe
+F:\VBStudio\CSAY_AD_BS_Converter\CSAY_AD_BS_Converter\AD_BS_Converter\AD_BS_Converter\bin\Debug\AD_BS_Converter.pdb
+F:\VBStudio\CSAY_AD_BS_Converter\CSAY_AD_BS_Converter\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.csproj.AssemblyReference.cache
+F:\VBStudio\CSAY_AD_BS_Converter\CSAY_AD_BS_Converter\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.csproj.SuggestedBindingRedirects.cache
+F:\VBStudio\CSAY_AD_BS_Converter\CSAY_AD_BS_Converter\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.Form1.resources
+F:\VBStudio\CSAY_AD_BS_Converter\CSAY_AD_BS_Converter\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.Properties.Resources.resources
+F:\VBStudio\CSAY_AD_BS_Converter\CSAY_AD_BS_Converter\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.csproj.GenerateResource.cache
+F:\VBStudio\CSAY_AD_BS_Converter\CSAY_AD_BS_Converter\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.csproj.CoreCompileInputs.cache
+F:\VBStudio\CSAY_AD_BS_Converter\CSAY_AD_BS_Converter\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.exe
+F:\VBStudio\CSAY_AD_BS_Converter\CSAY_AD_BS_Converter\AD_BS_Converter\AD_BS_Converter\obj\Debug\AD_BS_Converter.pdb

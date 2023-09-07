@@ -46,6 +46,10 @@
             this.label8 = new System.Windows.Forms.Label();
             this.TxtTotalDays = new System.Windows.Forms.TextBox();
             this.LblRemarks = new System.Windows.Forms.Label();
+            this.TxtLastDateBS = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.TxtLastDateAD = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -76,6 +80,7 @@
             this.TxtBaseDateBS.Size = new System.Drawing.Size(196, 22);
             this.TxtBaseDateBS.TabIndex = 3;
             this.TxtBaseDateBS.Text = "2079-01-01";
+            this.TxtBaseDateBS.TextChanged += new System.EventHandler(this.TxtBaseDateBS_TextChanged);
             // 
             // label2
             // 
@@ -145,7 +150,7 @@
             // TxtDayslistbox
             // 
             this.TxtDayslistbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDayslistbox.Location = new System.Drawing.Point(389, 170);
+            this.TxtDayslistbox.Location = new System.Drawing.Point(389, 249);
             this.TxtDayslistbox.Multiline = true;
             this.TxtDayslistbox.Name = "TxtDayslistbox";
             this.TxtDayslistbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -158,7 +163,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(386, 151);
+            this.label6.Location = new System.Drawing.Point(386, 230);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(155, 16);
             this.label6.TabIndex = 11;
@@ -167,7 +172,7 @@
             // TxtMonthsinListbox
             // 
             this.TxtMonthsinListbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtMonthsinListbox.Location = new System.Drawing.Point(574, 301);
+            this.TxtMonthsinListbox.Location = new System.Drawing.Point(574, 380);
             this.TxtMonthsinListbox.Name = "TxtMonthsinListbox";
             this.TxtMonthsinListbox.Size = new System.Drawing.Size(68, 22);
             this.TxtMonthsinListbox.TabIndex = 12;
@@ -176,7 +181,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(386, 301);
+            this.label7.Location = new System.Drawing.Point(386, 380);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(162, 16);
             this.label7.TabIndex = 13;
@@ -185,7 +190,7 @@
             // BtnADtoBS
             // 
             this.BtnADtoBS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnADtoBS.Location = new System.Drawing.Point(161, 253);
+            this.BtnADtoBS.Location = new System.Drawing.Point(161, 332);
             this.BtnADtoBS.Name = "BtnADtoBS";
             this.BtnADtoBS.Size = new System.Drawing.Size(182, 45);
             this.BtnADtoBS.TabIndex = 14;
@@ -197,7 +202,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(386, 329);
+            this.label8.Location = new System.Drawing.Point(386, 408);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(182, 16);
             this.label8.TabIndex = 16;
@@ -206,7 +211,7 @@
             // TxtTotalDays
             // 
             this.TxtTotalDays.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtTotalDays.Location = new System.Drawing.Point(574, 329);
+            this.TxtTotalDays.Location = new System.Drawing.Point(574, 408);
             this.TxtTotalDays.Name = "TxtTotalDays";
             this.TxtTotalDays.Size = new System.Drawing.Size(68, 22);
             this.TxtTotalDays.TabIndex = 15;
@@ -215,11 +220,47 @@
             // 
             this.LblRemarks.AutoSize = true;
             this.LblRemarks.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblRemarks.Location = new System.Drawing.Point(50, 173);
+            this.LblRemarks.Location = new System.Drawing.Point(50, 252);
             this.LblRemarks.Name = "LblRemarks";
             this.LblRemarks.Size = new System.Drawing.Size(65, 16);
             this.LblRemarks.TabIndex = 17;
             this.LblRemarks.Text = "Remarks:";
+            // 
+            // TxtLastDateBS
+            // 
+            this.TxtLastDateBS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtLastDateBS.Location = new System.Drawing.Point(492, 175);
+            this.TxtLastDateBS.Name = "TxtLastDateBS";
+            this.TxtLastDateBS.Size = new System.Drawing.Size(196, 22);
+            this.TxtLastDateBS.TabIndex = 21;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(381, 178);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(91, 16);
+            this.label9.TabIndex = 20;
+            this.label9.Text = "Last date (BS)";
+            // 
+            // TxtLastDateAD
+            // 
+            this.TxtLastDateAD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtLastDateAD.Location = new System.Drawing.Point(161, 172);
+            this.TxtLastDateAD.Name = "TxtLastDateAD";
+            this.TxtLastDateAD.Size = new System.Drawing.Size(196, 22);
+            this.TxtLastDateAD.TabIndex = 19;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(50, 175);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(92, 16);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "Last date (AD)";
             // 
             // Form1
             // 
@@ -227,6 +268,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(781, 485);
+            this.Controls.Add(this.TxtLastDateBS);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.TxtLastDateAD);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.LblRemarks);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.TxtTotalDays);
@@ -273,6 +318,10 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox TxtTotalDays;
         private System.Windows.Forms.Label LblRemarks;
+        private System.Windows.Forms.TextBox TxtLastDateBS;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox TxtLastDateAD;
+        private System.Windows.Forms.Label label10;
     }
 }
 
